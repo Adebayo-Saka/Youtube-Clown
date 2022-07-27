@@ -1,0 +1,89 @@
+.maingridcontainer{
+    
+    position: relative
+
+}
+
+.channel{
+  
+  width: 50px ;
+  
+}
+
+.talkingtech{
+  width:300px;
+  font-size: 19px;
+  font-weight: 700;
+  margin-top: 0;
+  line-height: 20px;
+  margin-bottom: 12px;
+  
+
+
+}
+.info{
+  
+  width: 100%
+}
+
+.name,.view{
+  font-size: 15px;
+  color: rgb(96 96 96);
+  font-weight: 500;
+}
+.name{
+  margin-bottom: 4px;
+}
+.channelpicture{    
+  margin-top:5px ;
+  margin-right: 20px;
+  margin-left: 0;
+  border-radius: 50px;
+
+  
+}
+.channel-info{
+  display: grid;
+  grid-template-columns:70px 1fr;
+  grid-column-gap: 15px;
+}
+.image1{
+  width:550px
+}
+.main{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  column-gap: 26px;
+  row-gap: 29px;
+  margin-left:110px;
+ padding-top: 30px;
+ padding-left: 30px;
+ background-color: rgb(252, 248, 248);
+ }
+
+@media (max-width:1350px){
+  .main{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(min-width:1351px) and (max-width:2449px){
+  .main{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media(min-width:2450px){
+  .main{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.qwe{
+  vertical-align: top;
+  padding: 4px;
+  width: 271
+}
+
+
